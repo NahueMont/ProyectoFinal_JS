@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vista de Producto | JS Producto Final</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="shortcut icon" href="https://i.pinimg.com/550x/aa/9d/62/aa9d6279d5f134ff6974221f37650618.jpg" alt="logo-lodejuancho.png" type="image/x-iconfavicon">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg p-0" style="  background: #1d6306">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link text-light" href="../index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="./productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="./fetch.html">Api de productos</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div style="height: 100px" class="container">
+  <div class="row">
+    <div  class="col text-center">
+      <a href="../index.html"><img  height="100px" width="500px" src="https://i.pinimg.com/550x/aa/9d/62/aa9d6279d5f134ff6974221f37650618.jpg" alt="logo-lodejuancho.png"></a>
+    </div>
+  </div>
+</div>
+<div class="container my-5">
+<div  class="row">
+  <div class="col text-center">
+    &nbsp;
+  </div>
+  <div class="col text-center">
+    <div class="input-group mb-3">
+      <input type="text" id="textoBusqueda" class="form-control" placeholder="Ingrese el articulo a buscar">
+      <span class="input-group-text" id="btnBusqueda" onclick="filtrarProductos()">Buscar</span>
+    </div>
+  </div>
+  <div class="col text-center">
+    <a href="./carrito.html" id="botonCarrito"></a>
+  </div>
+</div>
+
+<div class="container my-5">
+    <div id="contenido" class="row"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="../js/funciones.js"></script> 
+<script src="../js/productos.js"></script> 
+<script src="../js/ver-producto.js"></script> 
+</body>
+</html>
